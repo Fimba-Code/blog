@@ -16,7 +16,7 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <Layout>
-      <SEO title="Bruno Kiafuka Dev Blog" />
+      <SEO title="Blog" />
       <BlogContainer>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
@@ -30,13 +30,17 @@ export default function Index({ data }) {
                   style={{ textDecoration: "none" }}
                   to={post.frontmatter.path}
                 >
-                  <div>
-                    <Date>{post.frontmatter.date}</Date><br />
-                    <Date>By: {post.frontmatter.author}</Date>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <Date>{post.frontmatter.date}</Date>
+                    <Date>Publicado por: {post.frontmatter.author}</Date>
                   </div>
-                  <PostTitle>
-                    {post.frontmatter.title}
-                  </PostTitle>
+                  <PostTitle>{post.frontmatter.title}</PostTitle>
                   <Excerpt>{post.excerpt}</Excerpt>
                 </Link>
               </PostCard>
@@ -56,9 +60,9 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD, MMMM, YYYY")
             path
-            tags,
+            tags
             author
           }
         }

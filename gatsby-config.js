@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Fimba Code Blog`,
+    title: `Fimba Code`,
     description: `Sourcing knowledge`,
     author: `@brunokiafuka`,
     avatar: `https://avatars3.githubusercontent.com/u/12303468?s=460&v=4`,
@@ -46,7 +46,11 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [], // just in case those previously mentioned remark plugins sound cool :)
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+          },
+        ], // just in case those previously mentioned remark plugins sound cool :)
       },
     },
     {

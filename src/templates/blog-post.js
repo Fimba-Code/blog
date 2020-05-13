@@ -21,11 +21,22 @@ export default function Template({ data, pageContext }) {
 
   return (
     <Layout>
-      <SEO title="blog" description={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
       <Container>
         <div className="blog-post">
-          <Date>{post.frontmatter.date}</Date><br />
-          <Date>By: {post.frontmatter.author}</Date>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+            }}
+          >
+            <Date>{post.frontmatter.date}</Date>
+            <Date>Publicado por: {post.frontmatter.author}</Date>
+          </div>
           <PostTitle>{post.frontmatter.title}</PostTitle>
           <div style={{ marginBottom: 20 }}>
             {post.frontmatter.tags.map(tag => (
@@ -74,10 +85,10 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD, MMMM, YYYY")
         path
         title
-        tags,
+        tags
         author
       }
     }
