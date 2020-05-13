@@ -14,6 +14,11 @@ import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
+  const foundedYear = "2020",
+    currentYear = new Date().getFullYear()
+  const year = `${
+    foundedYear == currentYear ? currentYear : foundedYear + "-" + currentYear
+  }`
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -55,8 +60,7 @@ const Layout = ({ children }) => {
               marginBottom: 0,
             }}
           >
-            {`© ${new Date().getFullYear()}`} built with{" <3 "}
-            by <strong>Fimba Code</strong>
+            {`© ${year}`} Built with ♥️ by <strong>Fimba Code</strong>
           </p>
           <div>
             <a
