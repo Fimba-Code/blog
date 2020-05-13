@@ -2,8 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Fimba Code`,
     description: `Sourcing knowledge`,
-    author: `@brunokiafuka`,
-    avatar: `https://avatars3.githubusercontent.com/u/12303468?s=460&v=4`,
+    author: `@codefimba`,
+    avatar: `https://avatars3.githubusercontent.com/u/64832316?s=200&v=4`,
+    url: `http://blog.fimbacode.org/`,
+    img: `https://github.com/Fimba-Code/blog/blob/master/src/images/icon.png?raw=true`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
