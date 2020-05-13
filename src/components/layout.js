@@ -9,9 +9,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { GitHub, Twitter } from "react-feather"
+import "@deckdeckgo/highlight-code"
+import { defineCustomElements as deckDeckGoElement } from "@deckdeckgo/highlight-code/dist/loader"
 
 import Header from "./header"
 import "./layout.css"
+
+// Init Highlighting
+deckDeckGoElement()
 
 const Layout = ({ children }) => {
   const foundedYear = "2020",
