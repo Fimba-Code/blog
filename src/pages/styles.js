@@ -26,12 +26,12 @@ export const PostTitle = styled.h4`
   color: #303030;
 `
 export const Date = styled.span`
-  color: #999;
+  color: #212529;
   font-size: 12px;
 `
 export const Tags = styled.span`
-  background-color: #303030;
-  color: #fff;
+  background-color: #495057;
+  color: #f8f9fa;
   font-size: 8px;
   padding: 5px;
   margin-right: 10px;
@@ -41,7 +41,7 @@ export const Tags = styled.span`
 `
 
 export const Excerpt = styled.p`
-  color: #999;
+  color: #303030;
   font-size: 12px;
   margin-bottom: 5px;
   text-align: justify;

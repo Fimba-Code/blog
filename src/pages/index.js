@@ -60,7 +60,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD, MMMM, YYYY")
             path
             tags
             author

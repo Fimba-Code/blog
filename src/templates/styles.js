@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
-`
+export const Container = styled.div``
 
 export const PostTitle = styled.h4`
   font-family: Poppins;
@@ -11,7 +10,7 @@ export const PostTitle = styled.h4`
 `
 
 export const Divider = styled.hr`
-  background-color: #ccc;
+  background-color: #adb5bd;
 `
 
 export const Tags = styled.span`
@@ -25,7 +24,7 @@ export const Tags = styled.span`
   border-radius: 10px;
 `
 export const Date = styled.span`
-  color: #999;
+  color: #212529;
   font-size: 12px;
 `
 
