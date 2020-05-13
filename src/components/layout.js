@@ -21,9 +21,6 @@ deckDeckGoElement()
 const Layout = ({ children }) => {
   const foundedYear = "2020",
     currentYear = new Date().getFullYear()
-  const year = `${
-    foundedYear == currentYear ? currentYear : foundedYear + "-" + currentYear
-  }`
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -65,7 +62,8 @@ const Layout = ({ children }) => {
               marginBottom: 0,
             }}
           >
-            {`© ${year}`} Built with ♥️ by <strong>Fimba Code</strong>
+            {`© ${foundedYear} - ${currentYear}`} Built with ♥️ by{" "}
+            <strong>Fimba Code</strong>
           </p>
           <div>
             <a
