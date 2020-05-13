@@ -27,7 +27,7 @@ export const PostTitle = styled.h4`
 `
 export const Date = styled.span`
   color: #212529;
-  font-size: 12px;
+  font-size: 14px;
 `
 export const Tags = styled.span`
   background-color: #495057;

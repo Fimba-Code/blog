@@ -4,7 +4,7 @@ export const Container = styled.div``
 
 export const PostTitle = styled.h4`
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 15px;
   color: #303030;
 `
@@ -16,7 +16,7 @@ export const Divider = styled.hr`
 export const Tags = styled.span`
   background-color: #303030;
   color: #fff;
-  font-size: 8px;
+  font-size: 12px;
   padding: 5px;
   margin-right: 10px;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ export const Tags = styled.span`
 `
 export const Date = styled.span`
   color: #212529;
-  font-size: 12px;
+  font-size: 14px;
 `
 
 export const PostsNav = styled.ul`
