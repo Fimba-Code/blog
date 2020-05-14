@@ -1,7 +1,7 @@
 ---
 title: Selection Sort
 date: "2020-05-14"
-description: "Selection sort é um dos muitos algoritmos de ordenação que exitem no mundo da computação, o Selection Sort tem a sua característica de ordenção baseada em iteração, selecção e troca."
+description: "Selection sort é um dos muitos algoritmos de ordenação que existem no mundo da computação, este algoritmo tem a sua característica de ordenação baseada em iteração, selecção e troca"
 path: "/selection-sort"
 tags: ["JavaScript", "Intermediário"]
 author: "Faustino Kialungila"

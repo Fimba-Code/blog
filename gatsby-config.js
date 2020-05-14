@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Fimba Code`,
-    description: `Sourcing knowledge`,
+    description: `Simplificando a tecnologia da informação`,
     author: `@codefimba`,
     avatar: `https://avatars3.githubusercontent.com/u/64832316?s=200&v=4`,
     url: `http://blog.fimbacode.org/`,

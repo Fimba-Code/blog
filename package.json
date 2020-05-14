@@ -1,9 +1,9 @@
 {
   "name": "blog-fimba-code",
   "private": true,
-  "description": "Sharing is caring",
+  "description": "Simplificando a tecnologia da informação",
   "version": "0.1.0",
-  "author": "Bruno Kaifuka <brunokiafuka@live.com.pt>",
+  "author": "Fimba Code <codefimba@gmail.com>",
   "dependencies": {
     "@deckdeckgo/highlight-code": "^1.0.5",
     "babel-plugin-styled-components": "^1.10.7",

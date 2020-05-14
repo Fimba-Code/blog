@@ -60,7 +60,7 @@ Fim
 > As linguagens estão listadas de forma aliatória.
 
 ```python
-// Exemplo em Python do nosso Pseudocodigo
+# Exemplo em Python do nosso Pseudocodigo
 nota1 = int(input("Insira a primeira nota: "))
 nota2 = int(input("Insira a segunda nota: "))
 nota3 = int(input("Insira a terceira nota: "))
