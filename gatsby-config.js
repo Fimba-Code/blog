@@ -133,7 +133,7 @@ module.exports = {
               }
             `,
             output: "/feed.xml",
-            title: "Fimba Code RSS Feed",
+            title: "Fimba Code",
           },
         ],
       },
