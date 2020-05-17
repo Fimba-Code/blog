@@ -4,7 +4,7 @@ module.exports = {
     description: `Simplificando a tecnologia da informação`,
     author: `@codefimba`,
     avatar: `https://avatars3.githubusercontent.com/u/64832316?s=200&v=4`,
-    url: `http://blog.fimbacode.org/`,
+    url: `http://blog.fimbacode.org`,
     img: `https://github.com/Fimba-Code/blog/blob/master/src/images/icon.png?raw=true`,
   },
   plugins: [
@@ -107,8 +107,8 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.url + edge.node.frontmatter.slug,
-                  guid: site.siteMetadata.url + edge.node.frontmatter.slug,
+                  url: site.siteMetadata.url + edge.node.frontmatter.path,
+                  guid: site.siteMetadata.url + edge.node.frontmatter.path,
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
