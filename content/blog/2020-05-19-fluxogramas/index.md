@@ -27,7 +27,7 @@ Nos é dado um certo número, caso seja um múltiplo de 15 e resto da divisão f
 
 <div align="center">
     <img 
-        src="./fluxograma-fizzbuzz.png" 
+        src="https://fimbacode.s3-us-west-2.amazonaws.com/fluxograma-fizzbuzz.png" 
         width="500" 
         height="350" 
     />
