@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { GitHub, Twitter, Rss } from "react-feather"
+import { GitHub, Twitter, Rss, Mic } from "react-feather"
 import "@deckdeckgo/highlight-code"
 import { defineCustomElements as deckDeckGoElement } from "@deckdeckgo/highlight-code/dist/loader"
 
@@ -83,11 +83,19 @@ const Layout = ({ children }) => {
               <Twitter size={20} />
             </a>
             <a
-              style={{ margin: 10, color: "#999" }}              
+              style={{ margin: 10, color: "#999" }}
               rel="noopener noreferrer"
               href="/feed.xml"
             >
               <Rss size={20} />
+            </a>
+            <a
+              style={{ margin: 10, color: "#999" }}
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://anchor.fm/fimbacode"
+            >
+              <Mic size={20} />
             </a>
           </div>
         </footer>
