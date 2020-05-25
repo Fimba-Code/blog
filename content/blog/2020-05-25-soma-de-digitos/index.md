@@ -33,13 +33,13 @@ Ouput: Input inválido
 ```
 ## Soluções possíveis
 
-#### Resto da divisão por 10
+**Resto da divisão por 10**
 
 1. Obter o resto da divisão do número por 10;
 2. Somar o resto da divisão com a soma actual (resultado);
 3. Dividir o número por 10 e repetir os passos 1,2 e 3 enquanto o número for diferente de 0.
 
-#### Conversão para string
+**Conversão para string**
 
 1. Converter o número inteiro para uma string. 
 2. Percorrer a string caracter por caracter e para cada caracter:
@@ -50,33 +50,15 @@ Ouput: Input inválido
 
 Para resolvermos este problema, aplicaremos a solução que envolve a conversão do número inteiro para uma string.
 ```python
-# 1. Receber input do usuário
-# input é recebido como string
 num = input("input: ")
-
-# 2. Verificar se o input é um número inteiro
 try:
-    # Tentar converter o input para inteiro
     int(num)
 except ValueError:
-    # Em caso de erro sair do programa
     print("Introduza um número inteiro")
     exit(0)
-
-
-#3. Obter o valor absoluto do número (em caso de negativos)
 num = str(abs(int(num)))
-
-
-# 4. Percorrer cada 'digito' do número e acumular a soma 
-# dentro da var 'result'
 result = 0
-
 for digit in num:
-    # cada digito é primeiro convertido para int e 
-    #só depois é acrescentado à soma
     result += int(digit)
- 
-# 5. Mostrar resultado ao usuário    
 print(f"output: {result}")
 ````
