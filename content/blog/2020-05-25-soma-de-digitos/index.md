@@ -45,6 +45,35 @@ Ouput: Input inválido
 2. Percorrer a string caracter por caracter e para cada caracter:
     1. Converter o caracter para inteiro;
     2. Somar o inteiro com a soma actual (resultado).
+    
+
+## Descrição da solução
+Para resolvermos este problema, aplicaremos a solução que envolve a conversão do número inteiro para uma string. Uma descrição detalhada da solução é apresentada em pseudocódigo abaixo:
+
+```
+var
+numero : caracter
+soma,digito : int
+inicio
+1.  escreva("input: ")
+2.  leia(numero)
+3.  se e_inteiro(numero) entao
+4.    soma <- 0
+5.    numero <- numpcarac(abs(caracpnum(numero)))
+6.    para j de 1 ate compr(numero) faca    
+7.    	digito <- caracpnum(copia(numero,j,1))
+8.  	soma <- soma + digito
+9.    fimpara
+10.   escreva("ouput: " + soma)
+11. fimse
+12. fimalgoritmo
+```
+
+
+
+
+
+
 
 ## Aplicação da solução
 
