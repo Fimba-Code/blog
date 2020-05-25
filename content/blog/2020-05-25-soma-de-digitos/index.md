@@ -16,23 +16,16 @@ A soma de dígitos (digit sum) de um número natural é igual a soma de todos os
 ## Descrição do problema
 
 Dado um número inteiro, o programa deve retornar a soma de todos os digitos deste número. 
-
-Exemplo:
 ```
 Input: 1024
 Output: 7
 ```
 O programa deve ser capaz de lidar com números inteiros negativos.
-
-Exemplo:
 ```
 Input: -352
 Output: 10
 ```
 O programa deve também lidar com input inválido tais como números decimais e caracteres.
-
-Exemplo:
-
 ```
 Input: let me break your code
 Ouput: Input inválido
@@ -46,16 +39,16 @@ Ouput: Input inválido
 2. Somar o resto da divisão com a soma actual (resultado);
 3. Dividir o número por 10 e repetir os passos 1,2 e 3 enquanto o número for diferente de 0.
 
-#### Conversão para string**
+#### Conversão para string
 
 1. Converter o número inteiro para uma string. 
-2. Percorrer a caracter por caracter e para cada caracter:
+2. Percorrer a string caracter por caracter e para cada caracter:
     1. Converter o caracter para inteiro;
     2. Somar o inteiro com a soma actual (resultado).
 
 ## Aplicação da solução
 
-Para resolvermos este problema, aplicaremos a solução que envolve a conversão do inteiro para uma string.
+Para resolvermos este problema, aplicaremos a solução que envolve a conversão do número inteiro para uma string.
 ```python
 # 1. Receber input do usuário
 # input é recebido como string
