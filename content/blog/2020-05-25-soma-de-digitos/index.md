@@ -3,13 +3,8 @@ path: "/soma-de-digitos"
 date: 2020-05-25
 title: "Algoritmo: Soma de dígitos"
 tags: ["Algoritmo","Python", "Beginner"]
-author: "Nome do Autor"
+author: "Sténio Jacinto"
 ---
-
-
-
-
-
 
 A soma de dígitos (digit sum) de um número natural é igual a soma de todos os dígitos que compõem este número. 
 
@@ -34,13 +29,11 @@ Ouput: Input inválido
 ## Soluções possíveis
 
 **Resto da divisão por 10**
-
 1. Obter o resto da divisão do número por 10;
 2. Somar o resto da divisão com a soma actual (resultado);
 3. Dividir o número por 10 e repetir os passos 1,2 e 3 enquanto o número for diferente de 0.
 
 **Conversão para string**
-
 1. Converter o número inteiro para uma string. 
 2. Percorrer a string caracter por caracter e para cada caracter:
     1. Converter o caracter para inteiro;
@@ -65,19 +58,46 @@ inicio
 8.  	soma <- soma + digito
 9.    fimpara
 10.   escreva("ouput: " + soma)
-11. fimse
-12. fimalgoritmo
+11. senao
+12.   escreva("Input inválido")  
+13. fimse
+14. fimalgoritmo
 ```
 
+O primeiro passo é ler o input do usuário:
+```
+2.   leia(numero)
+```
+Este input é armazenado numa variável do tipo carácter para facilitar as manipulações mais tarde no código.
 
+A linha a seguir executa uma rotina que verifica se o input pode ser convertido para um número inteiro:
+```
+3.  se e_inteiro(numero) entao 
+```
+Esta linha lida com inputs inválidos e garante que só inteiros sejam processados.
 
+Nas linhas a seguir nós temos:
+```
+4.    soma <- 0
+5.    numero <- numpcarac(abs(caracpnum(numero)))
+```
+A linha 5 converte o numero para inteiro, obtém o valor absoluto deste inteiro e volta a converter este inteiro para uma string. Esta sequência é usada para lidar com os casos é que o input é um número negativo.
 
-
+Nas 4 linhas a seguir temos:
+```
+6.    para j de 1 ate compr(numero) faca    
+7.    	digito <- caracpnum(copia(numero,j,1))
+8.  	soma <- soma + digito
+9.    fimpara
+```
+O trecho acima realiza toda executa toda lógica necessária para:
+1. Percorrer toda string caracter por caracter;
+2. Converter cada caracter para inteiro;
+3. Actualizar a soma dos dígitos com o dígito mais recente.
 
 
 ## Aplicação da solução
-
-Para resolvermos este problema, aplicaremos a solução que envolve a conversão do número inteiro para uma string.
+A implementação concreta da solução descrita na secção anterior(em Python):
 ```python
 num = input("input: ")
 try:
