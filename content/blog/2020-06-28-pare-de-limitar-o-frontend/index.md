@@ -3,8 +3,7 @@ date: 2020-06-28
 author: Acidiney Dias
 title: "Pare de limitar o frontend!"
 path: /pare-de-limitar-o-frontend
-tags: ["Programação", "frontend", "UI/UX", "design", 
-"Imagination"]
+tags: ["Programação", "frontend", "UI/UX", "Design", "Imagination"]
 description: É bom prestar atenção que podemos dois tipos de usuários no nosso sistema, os que gostam do sistema e usam por isto, e aqueles que se desse nunca mais usava... simplesmente usa porque não pode mudar ( quanto a isso podem ser vários motivos ).
 ---
 
