@@ -15,7 +15,7 @@ Opa boas?
 
 Este tema despertou muito interesse por parte das pessoas quando anunciei que iria criar um artigo com um tema tão brusco, e realmente faz sentido, afinal de conta estou presumindo que muitas pessoas fazem coisas "erradas".
 
-Este artigo não é apenas voltado para o pessoal de desenvolvimento como também para o pessoal da área de design e sobre tudo para os encarregados por terem boas praticas de user experiencie,  e sim, o desenvolvedor frontend pode não saber sobre UX e não tem nada de errado, porém, é recomendado que saiba, para seu crescimento profissional.
+Este artigo não é apenas voltado para o pessoal de desenvolvimento como também para o pessoal da área de design e sobre tudo para os encarregados por terem boas praticas de user experience,  e sim, o desenvolvedor frontend pode não saber sobre UX e não tem nada de errado, porém, é recomendado que saiba, para seu crescimento profissional.
 
 Antes de avançar, gostaria de dizer uma coisa muito importante **"esta é a minha opinião, baseada na minha experiência e nos meus estudos"**.
 
