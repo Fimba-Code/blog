@@ -53,7 +53,7 @@ Mas, como eu estou  a gostar da música que estou a ouvir, então irei citar mai
 
   "O problema nem sempre é um problema, o teu desconhecimento
   é mais problemático que o problema em muitos casos."
-  Acidiney Dias, 2020 😂😂😂😂😂
+  Acidiney Dias, 2020 😂
 
 Em alguns casos, só o facto de você conhecer 70% da ferramenta que você estais a usar, já te permite resolver a maioria dos casos que te aparecem a frente... Tem um post muito antigo que li quando queria aprender mais sobre [GraqhQL](https://graphql.org/) que dizia o seguinte: "Se você está a fugir do [REST](https://pt.wikipedia.org/wiki/REST), por que não achaste uma forma de resolver o que procuras (resolver), então o mesmo acontecerá em tudo que você tentar usar.". O que isso quer dizer? Não é que [GraphQL](https://graphql.org/) é mau ou coisa do gênero... e pode ser que ele realmente resolva melhor o que você está tentando resolver. Mas desmerecer uma ferramenta por uma incapacidade tua gera um loop infinito no desmerecimento.
 
