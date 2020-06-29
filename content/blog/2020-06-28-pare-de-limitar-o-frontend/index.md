@@ -101,7 +101,7 @@ R: Tempo, para fazer uma tarefa simples.
 
 " Mas tome nota, que existe contras " 🙄
 
-Muita gente vai me prometer surra por isso 😂😂😂😂😂, vou tomar cuidado para não falar algo que me comprometa 😥!
+Muita gente vai me prometer surra por isso 😂, vou tomar cuidado para não falar algo que me comprometa 😥!
 
 " Txé, estou nem aí vou falar mesmo 😤, não gostou faz b.o "
 
