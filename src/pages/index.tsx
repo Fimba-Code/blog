@@ -9,7 +9,7 @@ export default function Index() {
     <Layout>
       <BasicMeta url={"/"} />
       <OpenGraphMeta url={"/"} />
-      <TwitterCardMeta url={"/"} />
+      <TwitterCardMeta url={"/"} title="Fimba Code" description="Comunidade de técnicos de IT"/>
       <div className="main">
         <div className="container">
           <img src="https://user-images.githubusercontent.com/23306911/96618451-421ea180-1305-11eb-9dd8-8568c49b78a3.png" />
