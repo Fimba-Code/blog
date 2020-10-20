@@ -1,0 +1,16 @@
+authors:
+  - slug: stenio
+    name: Sténio Jacinto
+    introduction: "Python Dev"
+
+  - slug: Fausto95
+    name: Faustino Kialungila
+    introduction: "Software Eng."
+
+  - slug: brunokiafuka
+    name: Bruno Kiafuka
+    introduction: "Software Eng."
+
+  - slug: acidiney
+    name: Acidiney Dias
+    introduction: "JavaScript Dev"
