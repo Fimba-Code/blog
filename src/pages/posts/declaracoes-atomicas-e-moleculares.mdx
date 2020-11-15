@@ -1,0 +1,94 @@
+---
+slug: declaracoes-atomicas-e-moleculares
+date: 2020-11-15
+title: "Declarações moleculares e atómicas(algebra boolean)"
+tags: 
+   - beginners
+   - human-friendly
+   - algebra-booleana
+author: Fausto95
+---
+
+De uma forma geral, uma declaração é uma sentença(frase) afirmativa ou negativa que seja **verdadeira** ou **falsa**, ou seja, elas são usadas para transmitir ou constatar um fato.. até aí tudo bem!
+
+As frases declarativas podem ser **atómicas** ou **moleculares**.
+
+Declarações **atómicas** não podem ser divididas em pequenas declarações, grosso modo, elas só têm uma parte.
+
+Ex:
+* A Lua é feita de queijo.
+* O mundo é um lugar seguro.
+* 10 -10 = 13.
+* O Petro de Luanda é o melhor club do mundo.
+
+Cada um destes fatos é verdadeiro ou falso.
+
+Declarações **moleculares** têm duas ou muitas partes, e cada uma delas tem uma ou mais **conexões lógicas**. Cada uma destas partes é uma declaração atómica.
+
+Ex:
+* A Lua é feita de queijo **e** o Sol feito de sumo.
+* A Terra é um planeta seguro **ou** Júpiter é plano.
+* Luanda é linda **e** Benguela é a capital de Angola.
+
+Cada um destes fatos é verdadeiro e falso, dependendo de cada uma das partes que o compõem é claro!
+
+As declarações moleculares podem ter vários conectores lógicos que são:
+
+* E
+* Ou
+* Se (... então)
+* Se e somente se
+* Não(rsrs, eu sei, este é bem traquino)
+
+## Representar, ler e interpretar declarações.
+
+A conexão **E** é uma conjunção, e simbolicamente é representada como:
+
+**P ∧ Q**, lê-se: **P E Q**.
+
+A conexão **Ou** é uma disjunção, e a sua representação simbólica é:
+
+**P ∨ Q**, lê-se: **P Ou Q**.
+
+A conexão **Se (...então)** é uma implicação, ou condição, e representa-se da seguinte forma:
+
+**P → Q** ou **Q → P**, lê-se: **Se P então Q ou Q Se P**.
+
+A conexão **Se e somente se** é uma implicação ou condição bilateral, e é representada da seguinte forma:
+
+**P ↔ Q**, lê-se: **P Se e somente se Q**.
+
+E por fim, a conexão **Não** é uma negação, e representada simbolicamente por:
+
+**¬P** ou **!P**, e lê-se **não é P**.
+
+O factor importante das declarações atómicas e moleculares, é que elas podem ser compostas múltiplas vezes. 
+Por exemplo:
+
+**D → ( A ∧ (B ∨ C))**
+
+**!( A ∧ (B ∨ C))**
+
+Outro factor importante, as conexões respeitam as propriedades associativas e distributivas.
+
+## Código, código e código.
+
+Um snippet básico só para pormos isto em evidência.
+
+Que tal escrevermos um programa que dentre três números inteiros, determina qual deles é o maior?
+
+```typescript
+function getBiggestNumber(a: number, b: number, c: number){
+  if(a > b && a > c) return a;
+  if(b > a && b > c) return b;
+  return c;
+}
+```
+
+A representação simbólica do código acima seria:
+
+**A → ((A > B) ∧ (A > C))**
+
+**((B > A) ∧ (B > C)) → B**
+
+**C → !((A > B) ∧ (A > C)) ∧ !((B > A) ∧ (B > C))**
