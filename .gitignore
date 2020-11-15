@@ -55,8 +55,6 @@ typings/
 *.tgz
 
 
-dist/
-
 # dotenv environment variable files
 .env
 
